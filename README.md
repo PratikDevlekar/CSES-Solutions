@@ -4,7 +4,7 @@
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
-| Introductory Problems |     10/19     |
+| Introductory Problems |     15/19     |
 | Sorting and Searching |     1/35     |
 | Dynamic Programming   |     0/19     |
 | Graph Algorithms      |     0/36     |
@@ -15,7 +15,7 @@
 | Geometry              |      0/7      |
 | Advanced Techniques   |     0/24     |
 | Additional Problems   |     0/77     |
-| **Total**             |  **11/300**  |
+| **Total**             |  **16/300**  |
 
 # Table of Contents
 
@@ -32,10 +32,10 @@
 1. [Trailing Zeros](/Introductory%20Problems/Trailing%20Zeros.cpp)
 1. [Coin Piles](/Introductory%20Problems/Coin%20Piles.cpp)
 1. [Palindrome Reorder](/Introductory%20Problems/Palindrome%20Reorder.cpp)
-1. [Gray Code]()
-1. [Tower of Hanoi]()
+1. Gray Code
+1. Tower of Hanoi
 1. [Creating Strings](/Introductory%20Problems/Creating%20Strings%20I.cpp)
 1. [Apple Division](/Introductory%20Problems/Apple%20Division.cpp)
-1. [Chessboard and Queens]()
-1. [Digit Queries]()
-1. [Grid Paths]()
+1. Chessboard and Queens
+1. Digit Queries
+1. Grid Paths
