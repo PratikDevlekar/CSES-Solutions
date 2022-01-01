@@ -4,7 +4,7 @@
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
-| [Introductory Problems](#Introductory Problems) |     15/19     |
+| [Introductory Problems](https://github.com/PratikDevlekar/CSES-Solutions#introductory-problems) |     15/19     |
 | Sorting and Searching |     1/35     |
 | Dynamic Programming   |     0/19     |
 | Graph Algorithms      |     0/36     |
