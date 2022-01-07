@@ -14,15 +14,16 @@ using namespace std::chrono;
 #define fl fflush(stdout)
 int mod = 1e9 + 7;
 
-int dp[1000007];
 void solve() {
     int n; cin >> n;
-    dp[0] = dp[1] = 1;
-    for (int x = 2; x <= n; x++) {
-        for (int i = 1; i <= 6; i++) {
-            if (i > x)
-                continue;
-            dp[x] = (dp[x] % mod + dp[x - i] % mod) % mod;
+    int dp[n + 1];
+    memset(dp, 0, sizeof(dp));
+    dp[0] = 1;
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= 6; j++) {
+            if (i - j >= 0) {
+                dp[i] = (dp[i] % mod + dp[i - j] % mod) % mod;
+            }
         }
     }
     cout << dp[n];
