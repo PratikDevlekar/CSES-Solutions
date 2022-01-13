@@ -14,7 +14,7 @@ using namespace std::chrono;
 #define fl fflush(stdout)
 
 void solve() {
-    // beginner intution
+    // beginner intuition
     /*
     int n; cin >> n;
     vector<int> val(n);
