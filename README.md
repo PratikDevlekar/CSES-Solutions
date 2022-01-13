@@ -6,7 +6,7 @@
 |-----------------------|:-------------:|
 | [Introductory Problems](https://github.com/PratikDevlekar/CSES-Solutions#introductory-problems) |     15/19     |
 | Sorting and Searching |     1/35     |
-| Dynamic Programming   |     0/19     |
+| Dynamic Programming   |     12/19     |
 | Graph Algorithms      |     0/36     |
 | Range Queries         |     0/19     |
 | Tree Algorithms       |     0/16     |
@@ -15,7 +15,7 @@
 | Geometry              |      0/7      |
 | Advanced Techniques   |     0/24     |
 | Additional Problems   |     0/77     |
-| **Total**             |  **16/300**  |
+| **Total**             |  **28/300**  |
 
 # Table of Contents
 
@@ -39,3 +39,26 @@
 1. Chessboard and Queens
 1. Digit Queries
 1. Grid Paths
+
+## Dynamic Programming
+
+1. [Dice Combinations](/Dynamic%20Programming/Dice%20Combinations.cpp)
+1. [Minimizing Coins](/Dynamic%20Programming/Minimizing%20Coins.cpp)
+1. [Coin Combinations I](/Dynamic%20Programming/Coin%20Combinations%20I.cpp)
+1. [Coin Combinations II](/Dynamic%20Programming/Coin%20Combinations%20II.cpp)
+1. [Removing Digits](/Dynamic%20Programming/Removing%20Digits%20I.cpp)
+1. [Grid Paths](/Dynamic%20Programming/Grid%20Paths%20II.cpp)
+1. [Book Shop](/Dynamic%20Programming/Book%20Shop%20I.cpp)
+1. [Array Description](/Dynamic%20Programming/Array%20Description.cpp)
+1. [Counting Towers](/Dynamic%20Programming/Counting%20Towers.cpp)
+1. [Edit Distance](/Dynamic%20Programming/Edit%20Distance.cpp)
+1. [Rectangle Cutting](/Dynamic%20Programming/Rectangle%20Cutting.cpp)
+1. [Money Sums](/Dynamic%20Programming/Money%20Sums.cpp)
+1. [Removal Game](/Dynamic%20Programming/Removal%20Game.cpp)
+1. [Two Sets II](/Dynamic%20Programming/Two%20Sets%20II.cpp)
+1. [Increasing Subsequence](/Dynamic%20Programming/Increasing%20Subsequence.cpp)
+1. [Projects](/Dynamic%20Programming/Projects.cpp)
+1. [Elevator Rides](/Dynamic%20Programming/Elevator%20Rides.cpp)
+1. [Counting Tilings](/Dynamic%20Programming/Counting%20Tilings.cpp)
+1. [Counting Numbers](/Dynamic%20Programming/Counting%20Numbers.cpp)
+
