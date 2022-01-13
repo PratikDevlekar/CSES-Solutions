@@ -15,6 +15,7 @@ using namespace std::chrono;
 
 void solve() {
     // beginner intuition
+
     /*
     int n; cin >> n;
     vector<int> val(n);
@@ -34,8 +35,10 @@ void solve() {
     cout << ans.size() << endl;;
     for (auto x : ans) cout << x << " ";
     */
+
     //Also solved using 0/1 knapsack
 
+    /*
     int n; cin >> n;
     vector<int> val(n);
     for (int i = 0; i < n; i++) cin >> val[i];
@@ -61,6 +64,32 @@ void solve() {
     for (int i = 1; i <= 1e5; i++) {
         if (dp[n][i] == true) cout << i << " ";
     }
+    */
+
+    //Slightly more optimized way of doing it
+
+    int n, tot = 0; cin >> n;
+    vector<int> val(n);
+    for (int i = 0; i < n; i++) {
+        cin >> val[i];
+        tot += val[i];
+    }
+    vector<bool> dp(tot + 1, false);
+    dp[0] = true;
+    for (int i = 0; i < n; i++) {
+        for (int j = tot; j >= 0; j--) {
+            if (j - val[i] >= 0) {
+                if (dp[j] == true || dp[j - val[i]] == true)
+                    dp[j] = true;
+            }
+        }
+    }
+    vector<int> ans;
+    for (int i = 1; i <= tot; i++) {
+        if (dp[i] == true) ans.pb(i);
+    }
+    cout << ans.size() << endl;
+    for (auto x : ans) cout << x << " ";
 }
 
 signed main() {
